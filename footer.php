@@ -19,6 +19,6 @@
 <script>var scroll = new SmoothScroll('a[href*="#"]', {offset: 100});</script>
 
 <?php $this->footer(); ?>
-<div display="none"><script src="https://s95.cnzz.com/z_stat.php?id=1255150612&web_id=1255150612" language="JavaScript"></script></div>
+<script src="https://s95.cnzz.com/z_stat.php?id=1255150612&web_id=1255150612" language="JavaScript"></script>
 </body>
 </html>
