@@ -40,12 +40,7 @@
     </form>
     <ul class="head-menu">
         <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
-        <li class="has-child">
-            <a>分类</a>
-            <ul class="sub-menu">
-                <?php $this->widget('Widget_Metas_Category_List')->parse('<li><a href="{permalink}">{name}</a></li>'); ?>
-            </ul>
-        </li>
+        <?php $this->widget('Widget_Metas_Category_List')->parse('<li><a href="{permalink}">{name}</a></li>'); ?>
         <?php $this->widget('Widget_Contents_Page_List')->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
     </ul>
 </header>
