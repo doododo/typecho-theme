@@ -1,6 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this->need('header.php'); ?>
- 
+
 <main class="container">
     <div class="wrap min">
         <section class="post-title">
@@ -24,6 +24,11 @@
         <article class="post-content">
             <?php $this->content(); ?>
         </article>
+
+        <blockquote>
+            <p>版权声明：<i class="fa fa-fw fa-creative-commons"></i>自由转载-非商用-非衍生-保持署名（<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">创意共享3.0许可证</a>）</p>
+        </blockquote>
+
         <ul class="post-near">
             <li>上一篇: <?php $this->thePrev('%s','看完啦 (つд⊂)'); ?></li>
             <li>下一篇: <?php $this->theNext('%s','看完啦 (つд⊂)'); ?></li>
