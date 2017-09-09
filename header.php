@@ -25,7 +25,7 @@
 <?php if ($this->options->custom_css): ?>
     <style><?php $this->options->custom_css() ?></style>
 <?php endif; ?>
-
+<?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw='); ?>
 </head>
 <body>
 <header>
