@@ -3,7 +3,7 @@
 <footer>
     <a class="turn-up" href="#"></a>
     <div class="wrap min">
-        <p>© <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>. All Rights Reserved. Theme By <a href="https://github.com/Dreamer-Paul/Single" target="_blank" rel="nofollow">Single</a>.</p>
+        <p>© <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>. All Rights Reserved. Theme Created By <a href="https://github.com/Dreamer-Paul/Single" target="_blank" rel="nofollow">Single</a> Modify By <a href="https://github.com/saybye720/typecho-theme" target="_blank" rel="nofollow">bigface</a>.</p>
     </div>
 </footer>
 
