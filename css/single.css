@@ -499,6 +499,9 @@ main .post-meta .tags:before{
 main .post-meta .comments:before{
     content: " \f086";
 }
+main .post-meta .views:before{
+    content: " \f086";
+}
 
 /* - 换页 */
 main .page-navigator{

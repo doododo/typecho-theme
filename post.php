@@ -19,7 +19,7 @@
 <?php if (!empty($this->options->post_meta) && in_array('show_comments', $this->options->post_meta)): ?>
                 <span class="comments"><?php $this->commentsNum('%d °C'); ?></span>
 <?php endif; ?>
-<?php get_post_view($this) ?>次阅读
+                <span class="views" style="float: right;"><?php get_post_view($this) ?> 次阅读 </span>
             </div>
         </section>
         <article class="post-content">
