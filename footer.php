@@ -1,9 +1,11 @@
-<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+} ?>
 
 <footer>
     <a class="turn-up" href="#"></a>
     <div class="wrap min">
-        <p>© <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>. All Rights Reserved. Theme Created By <a href="https://github.com/Dreamer-Paul/Single" target="_blank" rel="nofollow">Single</a> Modify By <a href="https://github.com/saybye720/typecho-theme" target="_blank" rel="nofollow">bigface</a>.</p>
+        <p>© <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>. All Rights Reserved. Theme Created By <a href="https://github.com/Dreamer-Paul/Single" target="_blank" rel="nofollow">Single</a> Modify By <a href="https://github.com/saybye720/typecho-theme" target="_blank" rel="nofollow">bigface</a>. <a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow">京ICP备18039551号-1</a></p>
     </div>
 </footer>
 
